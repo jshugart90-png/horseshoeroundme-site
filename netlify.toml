@@ -1,0 +1,47 @@
+[build]
+  publish = "."
+
+# Pretty URLs (strip .html); HTTPS forced via redirects + Netlify SSL
+[build.processing.html]
+  pretty_urls = true
+
+[[redirects]]
+  from = "http://horseshoeroundme.com/*"
+  to = "https://horseshoeroundme.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.horseshoeroundme.com/*"
+  to = "https://horseshoeroundme.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.horseshoeroundme.com/*"
+  to = "https://horseshoeroundme.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/shop"
+  to = "/#supply"
+  status = 302
+
+[[redirects]]
+  from = "/shop/"
+  to = "/#supply"
+  status = 302
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
