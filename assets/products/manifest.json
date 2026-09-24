@@ -180,5 +180,12 @@
     "file": "assets/products/logo-youth-tee.jpg",
     "url": "https://horseshoe-round-me.printify.me/product/32325213",
     "source": "https://images-api.printify.com/mockup/6ab477fde2cd5ecf33046574/96585/110450/logo-youth-tee.jpg?camera_label=front&revision=1790212125778"
+  },
+  {
+    "slug": "beardos-tee",
+    "id": "32347306",
+    "file": "assets/products/beardos-tee.jpg",
+    "url": "https://horseshoe-round-me.printify.me/product/32347306",
+    "source": "printify-front-mockup"
   }
 ]
