@@ -1,0 +1,633 @@
+{
+  "categories": [
+    {
+      "id": "crisis-immediate-help",
+      "title": "Crisis & Immediate Help",
+      "items": [
+        {
+          "name": "Veterans Crisis Line",
+          "url": "https://www.veteranscrisisline.net/",
+          "description": "24/7 confidential support for Veterans, service members, Guard/Reserve, and their families. Dial 988 then press 1, text 838255, or chat online. No VA enrollment required."
+        },
+        {
+          "name": "National Call Center for Homeless Veterans",
+          "url": "https://www.va.gov/homeless/nationalcallcenter.asp",
+          "description": "Free, confidential 24/7 VA hotline (877-424-3838) for Veterans who are homeless or at risk of losing housing. Counselors connect you to local VA homeless services."
+        },
+        {
+          "name": "Military OneSource",
+          "url": "https://www.militaryonesource.mil/",
+          "description": "DoD-funded 24/7 information and referral hub for service members, families, and survivors\u2014counseling, financial help, relocation, and crisis support."
+        },
+        {
+          "name": "Give an Hour",
+          "url": "https://giveanhour.org/",
+          "description": "Nonprofit network that connects military members, Veterans, and families to free or low-cost mental health care and peer support."
+        },
+        {
+          "name": "The Headstrong Project",
+          "url": "https://theheadstrongproject.org/",
+          "description": "Confidential, no-cost mental health treatment for post-9/11 Veterans and families; focuses on trauma-informed care without VA bureaucracy."
+        },
+        {
+          "name": "VA Suicide Prevention",
+          "url": "https://www.va.gov/health-care/health-needs-conditions/mental-health/suicide-prevention/",
+          "description": "VA suicide-prevention overview with crisis contacts, local resource locator links, and how to reach suicide prevention coordinators."
+        }
+      ]
+    },
+    {
+      "id": "official-va-dod",
+      "title": "Official VA & DoD",
+      "items": [
+        {
+          "name": "U.S. Department of Veterans Affairs (VA.gov)",
+          "url": "https://www.va.gov/",
+          "description": "Primary portal for VA health care, disability claims, education benefits, home loans, life insurance, and burial benefits. Apply and manage benefits online."
+        },
+        {
+          "name": "milConnect",
+          "url": "https://milconnect.dmdc.osd.mil/milconnect/",
+          "description": "DoD portal to manage DEERS, view military records, print proof of coverage, and access transition documents including VMET."
+        },
+        {
+          "name": "TRICARE",
+          "url": "https://www.tricare.mil/",
+          "description": "Military health plan for active duty, retirees, Guard/Reserve, and eligible family members. Enrollment, plan comparison, and provider search."
+        },
+        {
+          "name": "Defense Enrollment Eligibility Reporting System (DEERS)",
+          "url": "https://tricare.mil/DEERS",
+          "description": "Official system that records eligibility for military benefits. Update addresses, dependents, and ID card information through milConnect or a RAPIDS site."
+        },
+        {
+          "name": "VA Mental Health",
+          "url": "https://www.mentalhealth.va.gov/",
+          "description": "VA overview of mental health programs, how to get care, and links to crisis resources and specialty clinics."
+        },
+        {
+          "name": "DoD Transition Assistance Program (TAP)",
+          "url": "https://www.dodtap.mil/",
+          "description": "Official DoD TAP portal for separating and retiring service members\u2014mandatory briefs, career readiness standards, and DD Form 2648."
+        },
+        {
+          "name": "DoD SkillBridge",
+          "url": "https://skillbridge.mil/",
+          "description": "Allows eligible service members within 180 days of separation to train with civilian employers while still on active duty (with command approval)."
+        },
+        {
+          "name": "My HealtheVet / VA Health & Benefits App",
+          "url": "https://www.va.gov/",
+          "description": "Start from VA.gov to refill prescriptions, message care teams, and manage appointments and benefits on web or mobile."
+        }
+      ]
+    },
+    {
+      "id": "benefits-claims-disability",
+      "title": "Benefits, Claims & Disability",
+      "items": [
+        {
+          "name": "Disabled American Veterans (DAV)",
+          "url": "https://www.dav.org/",
+          "description": "VSO that files and appeals VA disability claims at no cost, plus transportation to VA medical appointments and employment programs."
+        },
+        {
+          "name": "Veterans of Foreign Wars (VFW)",
+          "url": "https://www.vfw.org/",
+          "description": "National VSO offering free VA claims assistance, advocacy, financial grants, and local post support for combat and overseas Veterans."
+        },
+        {
+          "name": "The American Legion",
+          "url": "https://www.legion.org/",
+          "description": "Largest U.S. veterans service organization; provides claims help, community programs, and advocacy on VA and DoD issues."
+        },
+        {
+          "name": "Paralyzed Veterans of America (PVA)",
+          "url": "https://pva.org/",
+          "description": "VSO focused on Veterans with spinal cord injury/disease, MS, and ALS\u2014claims representation, advocacy, and specialized care support."
+        },
+        {
+          "name": "AMVETS",
+          "url": "https://www.amvets.org/",
+          "description": "Veterans service organization providing free claims representation, employment services, and local posts open to nearly all honorably discharged Veterans."
+        },
+        {
+          "name": "Iraq and Afghanistan Veterans of America (IAVA)",
+          "url": "https://iava.org/",
+          "description": "Post-9/11 Veterans advocacy organization focused on mental health, benefits access, and policy for GWOT-era service members."
+        },
+        {
+          "name": "National Veterans Legal Services Program (NVLSP)",
+          "url": "https://nvlsp.org/",
+          "description": "Nonprofit law firm that trains VSOs and provides free legal help on VA benefits, discharge upgrades, and caregiver appeals."
+        },
+        {
+          "name": "VA Disability Compensation",
+          "url": "https://www.va.gov/disability/",
+          "description": "Official VA page to file and manage disability compensation claims for service-connected conditions."
+        },
+        {
+          "name": "VA Veteran Readiness and Employment (VR&E)",
+          "url": "https://www.va.gov/careers-employment/vocational-rehabilitation/",
+          "description": "Chapter 31 program for Veterans with service-connected disabilities\u2014training, education, job placement, and independent living support."
+        },
+        {
+          "name": "VA Claims Appeals (Board of Veterans\u2019 Appeals)",
+          "url": "https://www.va.gov/decision-reviews/",
+          "description": "Official paths to request a Higher-Level Review, Supplemental Claim, or Board Appeal if you disagree with a VA benefits decision."
+        }
+      ]
+    },
+    {
+      "id": "mental-health-peer-support",
+      "title": "Mental Health & Peer Support",
+      "items": [
+        {
+          "name": "Make the Connection",
+          "url": "https://www.maketheconnection.net/",
+          "description": "VA site with Veteran stories and mental health resources covering PTSD, depression, substance use, and how to seek care."
+        },
+        {
+          "name": "National Center for PTSD",
+          "url": "https://www.ptsd.va.gov/",
+          "description": "VA research and education center on PTSD\u2014treatment options, apps (including PTSD Coach), and guidance for Veterans and families."
+        },
+        {
+          "name": "PTSD Coach",
+          "url": "https://mobile.va.gov/app/ptsd-coach",
+          "description": "Free VA mobile app for managing PTSD symptoms with tools, education, and self-assessment. Available without VA enrollment."
+        },
+        {
+          "name": "Cohen Veterans Network",
+          "url": "https://www.cohenveteransnetwork.org/",
+          "description": "National network of mental health clinics offering accessible care for post-9/11 Veterans, service members, and families."
+        },
+        {
+          "name": "Wounded Warrior Project",
+          "url": "https://www.woundedwarriorproject.org/",
+          "description": "Programs for post-9/11 wounded, ill, or injured Veterans\u2014mental health, peer support, benefits counseling, and family services at no cost."
+        },
+        {
+          "name": "Hope For The Warriors",
+          "url": "https://www.hopeforthewarriors.org/",
+          "description": "Supports post-9/11 service members, Veterans, and families with clinical care, peer programs, and transition resources."
+        },
+        {
+          "name": "PsychArmor",
+          "url": "https://psycharmor.org/",
+          "description": "Free online courses that train clinicians, employers, and communities to work effectively with Veterans and military families."
+        },
+        {
+          "name": "Team Red, White & Blue (Team RWB)",
+          "url": "https://teamrwb.org/",
+          "description": "Community fitness and belonging organization connecting Veterans through workouts, events, and local chapters nationwide."
+        },
+        {
+          "name": "VA Mental Health \u2014 Get Help",
+          "url": "https://www.mentalhealth.va.gov/get-help/index.asp",
+          "description": "VA landing page for getting mental health help, including crisis options and how to start care through VA."
+        }
+      ]
+    },
+    {
+      "id": "housing-homelessness",
+      "title": "Housing & Homelessness",
+      "items": [
+        {
+          "name": "VA Homeless Programs",
+          "url": "https://department.va.gov/homeless/",
+          "description": "Overview of VA housing and homelessness services, including how to reach local Homeless Coordinators and national hotlines."
+        },
+        {
+          "name": "HUD-VASH",
+          "url": "https://department.va.gov/homeless/hud-vash/",
+          "description": "Joint HUD\u2013VA program pairing Housing Choice Vouchers with VA case management for homeless Veterans and their families."
+        },
+        {
+          "name": "Supportive Services for Veteran Families (SSVF)",
+          "url": "https://department.va.gov/homeless/what-is-permanent-housing/",
+          "description": "VA-funded community program that prevents homelessness and rapidly re-houses very low-income Veteran families."
+        },
+        {
+          "name": "National Coalition for Homeless Veterans (NCHV)",
+          "url": "https://nchv.org/",
+          "description": "National advocacy and capacity-building group focused on ending Veteran homelessness; connects Veterans to local providers."
+        },
+        {
+          "name": "VA Home Loans",
+          "url": "https://www.va.gov/housing-assistance/home-loans/",
+          "description": "VA-backed home loan benefits for eligible Veterans, service members, and surviving spouses\u2014purchase, refinance, and Certificate of Eligibility."
+        },
+        {
+          "name": "Operation Homefront \u2014 Housing",
+          "url": "https://operationhomefront.org/housing/",
+          "description": "Nonprofit housing programs for military and Veteran families, including transitional and permanent housing support."
+        },
+        {
+          "name": "Volunteers of America \u2014 Veteran Services",
+          "url": "https://www.voa.org/services/supportive-services-for-veterans-and-their-families/",
+          "description": "National nonprofit providing housing, case management, employment, and behavioral health services for Veterans and families."
+        },
+        {
+          "name": "HUD Homeless Veterans / HUD-VASH Overview",
+          "url": "https://www.hud.gov/helping-americans/housing-choice-vouchers-homeless-veterans/",
+          "description": "HUD\u2019s public-facing overview of HUD-VASH vouchers and how public housing authorities partner with VA for Veteran housing."
+        }
+      ]
+    },
+    {
+      "id": "employment-career-transition",
+      "title": "Employment & Career Transition",
+      "items": [
+        {
+          "name": "Hire Heroes USA",
+          "url": "https://www.hireheroesusa.org/",
+          "description": "Free one-on-one career coaching, resume help, and interview prep for transitioning service members, Veterans, and military spouses."
+        },
+        {
+          "name": "Hiring Our Heroes",
+          "url": "https://www.hiringourheroes.org/",
+          "description": "U.S. Chamber of Commerce Foundation program with hiring events, SkillBridge fellowships, and career services for the military community."
+        },
+        {
+          "name": "USAJOBS \u2014 Veterans",
+          "url": "https://www.usajobs.gov/hiringpath/veterans/",
+          "description": "Federal job portal with Veterans\u2019 Preference guidance, special hiring authorities, and how to apply for government careers."
+        },
+        {
+          "name": "Department of Labor VETS",
+          "url": "https://www.dol.gov/agencies/vets",
+          "description": "DoL Veterans\u2019 Employment and Training Service\u2014employment rights (USERRA), Jobs for Veterans State Grants, and transition employment navigators."
+        },
+        {
+          "name": "Helmets to Hardhats",
+          "url": "https://helmetstohardhats.org/",
+          "description": "Connects Veterans to union construction apprenticeships and skilled-trades careers with earn-while-you-learn pathways."
+        },
+        {
+          "name": "American Corporate Partners (ACP)",
+          "url": "https://www.acp-usa.org/",
+          "description": "Free year-long mentoring program pairing Veterans and military spouses with corporate professionals for career guidance."
+        },
+        {
+          "name": "Onward to Opportunity (O2O) \u2014 IVMF",
+          "url": "https://ivmf.syracuse.edu/programs/career-training/",
+          "description": "Syracuse University IVMF program offering free career training, industry certifications, and job placement support for Veterans and spouses."
+        },
+        {
+          "name": "VetJobs",
+          "url": "https://vetjobs.org/",
+          "description": "Employment nonprofit helping Veterans and military spouses find civilian jobs through recruiting support and employer partnerships."
+        },
+        {
+          "name": "FourBlock",
+          "url": "https://www.fourblock.org/",
+          "description": "Free career-readiness courses and coaching that help Veterans and military spouses translate military experience for civilian employers."
+        },
+        {
+          "name": "Combined Arms",
+          "url": "https://www.combinedarms.us/",
+          "description": "Veteran-built referral network linking service members, Veterans, and families to 300+ vetted resources across all 50 states."
+        },
+        {
+          "name": "DoL Employment Navigator and Partnership Program",
+          "url": "https://www.dol.gov/agencies/vets/programs/tap/employment-navigator-partnership",
+          "description": "Personalized employment navigation for transitioning service members, with referrals to partner career programs."
+        }
+      ]
+    },
+    {
+      "id": "education-gi-bill",
+      "title": "Education & GI Bill",
+      "items": [
+        {
+          "name": "VA Education & Training (GI Bill)",
+          "url": "https://www.va.gov/education/",
+          "description": "Official VA hub for Post-9/11 GI Bill, Montgomery GI Bill, and other education benefits\u2014eligibility, applications, and payment info."
+        },
+        {
+          "name": "GI Bill Comparison Tool / Education Benefits Overview",
+          "url": "https://www.va.gov/education/about-gi-bill-benefits/",
+          "description": "Plain-language VA guide to GI Bill benefit types, housing allowance, and what each chapter covers."
+        },
+        {
+          "name": "Student Veterans of America (SVA)",
+          "url": "https://studentveterans.org/",
+          "description": "National network of 1,600+ campus chapters supporting student Veterans with leadership programs, advocacy, and peer community."
+        },
+        {
+          "name": "VA Yellow Ribbon Program",
+          "url": "https://www.va.gov/education/about-gi-bill-benefits/post-9-11/yellow-ribbon-program/",
+          "description": "Partnership between VA and schools that can cover tuition beyond the Post-9/11 GI Bill annual cap at participating institutions."
+        },
+        {
+          "name": "Veterans Education Success (VES)",
+          "url": "https://vetsedsuccess.org/",
+          "description": "Nonprofit that helps student Veterans with GI Bill problems, school complaints, career counseling, and free legal advice related to education benefits."
+        },
+        {
+          "name": "VA VET TEC 2.0 / High-Tech Training",
+          "url": "https://www.va.gov/education/",
+          "description": "VA education portal covering high-tech training pathways and related education benefits for eligible Veterans and service members."
+        },
+        {
+          "name": "GI Bill Hotline",
+          "url": "https://www.va.gov/education/",
+          "description": "Call 888-442-4551 (888-GIBILL-1) for official help with GI Bill applications, payments, and school certification questions."
+        }
+      ]
+    },
+    {
+      "id": "families-caregivers-kids",
+      "title": "Families, Caregivers & Kids",
+      "items": [
+        {
+          "name": "VA Caregiver Support Program",
+          "url": "https://www.caregiver.va.gov/",
+          "description": "VA program for family caregivers\u2014training, peer support, and applications for the Program of Comprehensive Assistance for Family Caregivers (PCAFC)."
+        },
+        {
+          "name": "Program of Comprehensive Assistance for Family Caregivers",
+          "url": "https://www.va.gov/family-and-caregiver-benefits/health-and-disability/comprehensive-assistance-for-family-caregivers/",
+          "description": "VA caregiver benefit that may include a monthly stipend, health coverage (CHAMPVA), respite, and training for eligible Veterans\u2019 caregivers."
+        },
+        {
+          "name": "Tragedy Assistance Program for Survivors (TAPS)",
+          "url": "https://www.taps.org/",
+          "description": "24/7 grief support for survivors of fallen military members\u2014peer mentoring, counseling referrals, and survivor community."
+        },
+        {
+          "name": "Fisher House Foundation",
+          "url": "https://fisherhouse.org/",
+          "description": "Provides free lodging near military and VA medical centers for families of wounded, ill, or injured service members and Veterans."
+        },
+        {
+          "name": "Blue Star Families",
+          "url": "https://bluestarfam.org/",
+          "description": "Nonprofit connecting military and Veteran families through local chapters, research, spouse career support, and community programs."
+        },
+        {
+          "name": "National Military Family Association (NMFA)",
+          "url": "https://www.militaryfamily.org/",
+          "description": "Advocacy and programs for military families, including spouse scholarships and policy work on quality-of-life issues."
+        },
+        {
+          "name": "Operation Homefront",
+          "url": "https://operationhomefront.org/",
+          "description": "Financial assistance, housing support, and family programs for active-duty and Veteran families facing hardship."
+        },
+        {
+          "name": "Soldiers\u2019 Angels",
+          "url": "https://soldiersangels.org/",
+          "description": "Volunteer-driven aid including care packages, food assistance, and support for deployed troops, Veterans, and military families."
+        },
+        {
+          "name": "Semper Fi & America\u2019s Fund",
+          "url": "https://thefund.org/",
+          "description": "Lifetime case management and financial support for critically wounded, ill, or injured service members, Veterans, and families across all branches."
+        },
+        {
+          "name": "Elizabeth Dole Foundation \u2014 Hidden Heroes",
+          "url": "https://hiddenheroes.org/",
+          "description": "National community and resource hub for military and Veteran caregivers, including education, peer connection, and advocacy."
+        },
+        {
+          "name": "Code of Support Foundation",
+          "url": "https://www.codeofsupport.org/",
+          "description": "Connects Veterans, service members, caregivers, and families to vetted resources through case coordination and the PATRIOTlink network."
+        }
+      ]
+    },
+    {
+      "id": "women-veterans",
+      "title": "Women Veterans",
+      "items": [
+        {
+          "name": "VA Center for Women Veterans",
+          "url": "https://department.va.gov/center-for-women-veterans/",
+          "description": "VA office that advocates for women Veterans\u2019 access to benefits, health care, and recognition across the VA system."
+        },
+        {
+          "name": "Women Veterans Call Center",
+          "url": "https://www.womenshealth.va.gov/wvcc.asp",
+          "description": "Free, confidential VA line (1-855-829-6636) for women Veterans seeking help with health care, benefits, and local resources."
+        },
+        {
+          "name": "Service Women\u2019s Action Network (SWAN)",
+          "url": "https://www.servicewomensactionnetwork.org/",
+          "description": "Independent advocacy and case-management organization focused on servicewomen and women Veterans, including MST-related support."
+        },
+        {
+          "name": "VA Women Veterans Health Care",
+          "url": "https://www.womenshealth.va.gov/",
+          "description": "VA women\u2019s health portal covering primary care, reproductive health, MST care, and how to find a Women Veterans Program Manager."
+        },
+        {
+          "name": "DAV Women Veterans Programs",
+          "url": "https://www.dav.org/",
+          "description": "DAV provides free claims help and women-focused outreach; use DAV service officers for gender-specific disability and MST-related claims support."
+        }
+      ]
+    },
+    {
+      "id": "legal-aid-justice",
+      "title": "Legal Aid & Justice",
+      "items": [
+        {
+          "name": "National Veterans Legal Services Program (NVLSP)",
+          "url": "https://nvlsp.org/",
+          "description": "Free and low-cost legal representation on VA claims, discharge upgrades, and related Veterans benefits disputes."
+        },
+        {
+          "name": "NVLSP Lawyers Serving Warriors",
+          "url": "https://nvlsp.org/what-we-do/lawyers-serving-warriors/",
+          "description": "NVLSP program matching Veterans with pro bono attorneys for complex benefits and discharge-upgrade cases."
+        },
+        {
+          "name": "VA Discharge Upgrade Information",
+          "url": "https://www.va.gov/discharge-upgrade-eligibility/",
+          "description": "Official VA guidance on how character of discharge affects benefits and where to start a discharge review or upgrade."
+        },
+        {
+          "name": "Department of Labor USERRA / VETS",
+          "url": "https://www.dol.gov/agencies/vets/programs/userra",
+          "description": "Federal enforcement and guidance on Uniformed Services Employment and Reemployment Rights Act job protections for service members."
+        },
+        {
+          "name": "SWAN Case Management & Legal Referrals",
+          "url": "https://www.servicewomensactionnetwork.org/",
+          "description": "SWAN maintains vetted pro bono resources and a 24/7 assistance hotline (888-502-8755) for servicewomen and women Veterans facing legal and benefits barriers."
+        }
+      ]
+    },
+    {
+      "id": "entrepreneurship-small-business",
+      "title": "Entrepreneurship & Small Business",
+      "items": [
+        {
+          "name": "SBA Office of Veterans Business Development",
+          "url": "https://www.sba.gov/veterans/",
+          "description": "U.S. Small Business Administration hub for Veteran and military spouse entrepreneurs\u2014lending, contracting, and counseling resources."
+        },
+        {
+          "name": "Veterans Business Outreach Centers (VBOC)",
+          "url": "https://www.sba.gov/local-assistance/resource-partners/veterans-business-outreach-centers-vboc",
+          "description": "SBA-funded centers providing free business counseling, training, and mentorship tailored to Veterans and military spouses."
+        },
+        {
+          "name": "Boots to Business",
+          "url": "https://www.sba.gov/sba-learning-platform/boots-business",
+          "description": "Free SBA entrepreneurship course delivered as part of DoD TAP for transitioning service members, Veterans, and spouses."
+        },
+        {
+          "name": "SCORE Mentoring",
+          "url": "https://www.score.org/",
+          "description": "Nationwide network of volunteer mentors offering free business mentoring; many chapters have Veteran-focused mentors and workshops."
+        },
+        {
+          "name": "Entrepreneurship Bootcamp for Veterans (EBV) \u2014 IVMF",
+          "url": "https://ivmf.syracuse.edu/programs/entrepreneurship/",
+          "description": "Syracuse University IVMF entrepreneurship programs for post-9/11 Veterans, including intensive startup training and founder support."
+        },
+        {
+          "name": "VA Office of Small & Disadvantaged Business Utilization (OSDBU)",
+          "url": "https://www.va.gov/osdbu/",
+          "description": "VA office that helps Veteran-owned and service-disabled Veteran-owned small businesses pursue VA contracting opportunities."
+        },
+        {
+          "name": "VA Vendor Information Pages / VOSB Verification",
+          "url": "https://www.va.gov/osdbu/",
+          "description": "Entry point for Veteran-owned and service-disabled Veteran-owned small business verification and VA contracting support."
+        }
+      ]
+    },
+    {
+      "id": "recreation-outdoor-community",
+      "title": "Recreation, Outdoor & Community",
+      "items": [
+        {
+          "name": "Team Rubicon",
+          "url": "https://teamrubiconusa.org/",
+          "description": "Disaster-response nonprofit that deploys Veterans and first responders for domestic and international relief missions."
+        },
+        {
+          "name": "The Mission Continues",
+          "url": "https://missioncontinues.org/",
+          "description": "Connects Veterans to community service missions and leadership opportunities that rebuild purpose after military service."
+        },
+        {
+          "name": "Move United",
+          "url": "https://moveunitedsport.org/",
+          "description": "National adaptive sports organization (merger of Disabled Sports USA and Adaptive Sports USA) with programs for wounded Warriors."
+        },
+        {
+          "name": "Travis Manion Foundation",
+          "url": "https://www.travismanion.org/",
+          "description": "Character and service programs for Veterans, families of the fallen, and youth\u2014community events and mentorship nationwide."
+        },
+        {
+          "name": "Challenge America",
+          "url": "https://www.challengeamerica.com/",
+          "description": "Arts-based programs and peer community for Veterans, including creative workshops and support networks."
+        },
+        {
+          "name": "Team Red, White & Blue",
+          "url": "https://teamrwb.org/",
+          "description": "Fitness-centered community that helps Veterans build social connection through local workouts, races, and service events."
+        },
+        {
+          "name": "United Service Organizations (USO)",
+          "url": "https://www.uso.org/",
+          "description": "Global network of centers and programs supporting service members and families from enlistment through deployment and transition home."
+        }
+      ]
+    },
+    {
+      "id": "financial-emergency-assistance",
+      "title": "Financial & Emergency Assistance",
+      "items": [
+        {
+          "name": "VFW Unmet Needs",
+          "url": "https://www.vfw.org/assistance/financial-grants",
+          "description": "VFW grants (typically up to $2,500) for eligible military families facing financial hardship for basic living expenses."
+        },
+        {
+          "name": "American Legion Temporary Financial Assistance",
+          "url": "https://www.legion.org/get-involved/community-programs/temporary-financial-assistance/about",
+          "description": "One-time grants through local Legion posts to help minor children of eligible Veterans and service members with essential needs."
+        },
+        {
+          "name": "Army Emergency Relief",
+          "url": "https://www.armyemergencyrelief.org/",
+          "description": "Official Army aid society providing interest-free loans and grants to Soldiers and families in financial emergency."
+        },
+        {
+          "name": "Navy-Marine Corps Relief Society",
+          "url": "https://www.nmcrs.org/",
+          "description": "Financial assistance, budgeting help, and emergency aid for Sailors, Marines, and their families."
+        },
+        {
+          "name": "Air & Space Forces Aid Society",
+          "url": "https://afas.org/",
+          "description": "Official charity of the Air Force and Space Force offering emergency loans/grants and education assistance for Airmen, Guardians, and families."
+        },
+        {
+          "name": "Operation Homefront Critical Financial Assistance",
+          "url": "https://operationhomefront.org/",
+          "description": "Emergency financial help for qualifying military and Veteran families covering essentials like rent, utilities, and food."
+        },
+        {
+          "name": "VA Pension",
+          "url": "https://www.va.gov/pension/",
+          "description": "Needs-based monthly payments for wartime Veterans (and some survivors) with limited income who meet age or disability criteria."
+        },
+        {
+          "name": "Coast Guard Mutual Assistance",
+          "url": "https://mycgma.org/",
+          "description": "Official Coast Guard aid society offering emergency financial assistance, education loans/grants, and counseling for Coast Guard members and families."
+        }
+      ]
+    },
+    {
+      "id": "transition-tap-separating",
+      "title": "Transition / TAP / Separating Service Members",
+      "items": [
+        {
+          "name": "DoD Transition Assistance Program",
+          "url": "https://www.dodtap.mil/",
+          "description": "Mandatory transition curriculum for separating/retiring service members\u2014career readiness, benefits briefs, and counseling."
+        },
+        {
+          "name": "DoD SkillBridge Program",
+          "url": "https://skillbridge.mil/",
+          "description": "Approved civilian job training and internship opportunities for service members nearing separation, with command approval."
+        },
+        {
+          "name": "VA Benefits for Transitioning Service Members",
+          "url": "https://www.va.gov/service-member-benefits/",
+          "description": "VA overview of time-sensitive benefits to consider before and after separation, including health care enrollment and claims."
+        },
+        {
+          "name": "Hire Heroes USA \u2014 Transition Support",
+          "url": "https://www.hireheroesusa.org/",
+          "description": "Personalized career coaching specifically for service members and spouses navigating the military-to-civilian job search."
+        },
+        {
+          "name": "Hiring Our Heroes Fellowships",
+          "url": "https://www.hiringourheroes.org/career-services/fellowships/",
+          "description": "SkillBridge-approved 12-week corporate and skills-based fellowships connecting transitioning members with hiring employers."
+        },
+        {
+          "name": "Military OneSource \u2014 Transition",
+          "url": "https://www.militaryonesource.mil/",
+          "description": "DoD counseling and resources covering separation planning, spouse employment, financial readiness, and post-service benefits."
+        },
+        {
+          "name": "USO Transition Programs",
+          "url": "https://www.uso.org/",
+          "description": "USO workshops and one-on-one transition support covering education, employment, financial readiness, and mentorship."
+        }
+      ]
+    }
+  ]
+}
