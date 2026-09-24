@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Horseshoe Round Me</title>
+<meta name="description" content="Contact Horseshoe Round Me. Not 24/7. Crisis help: 988 then 1. Order issues go to Printify, Payhip, Stripe, or Shipping and Returns.">
+<link rel="canonical" href="https://horseshoeroundme.com/contact">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://horseshoeroundme.com/contact">
+<meta property="og:title" content="Contact — Horseshoe Round Me">
+<meta property="og:description" content="Contact Horseshoe Round Me. Not 24/7. Crisis help: 988 then 1. Order issues go to Printify, Payhip, Stripe, or Shipping and Returns.">
+<meta property="og:image" content="https://horseshoeroundme.com/assets/logo.png">
+<meta property="og:site_name" content="Horseshoe Round Me">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Contact — Horseshoe Round Me">
+<meta name="twitter:description" content="Contact Horseshoe Round Me. Not 24/7. Crisis help: 988 then 1. Order issues go to Printify, Payhip, Stripe, or Shipping and Returns.">
+<meta name="twitter:image" content="https://horseshoeroundme.com/assets/logo.png">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="apple-touch-icon" href="/assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@600;700;800;900&family=Public+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand-lockup" href="/">
+        <img src="/assets/logo.png" width="38" height="38" alt="Horseshoe Round Me logo">
+        <span class="name">Horseshoe Round Me</span>
+      </a>
+      <nav class="nav" id="siteNav" aria-label="Primary">
+        <a href="/shop">Shop</a>
+        <a href="/watch">Watch</a>
+        <a href="/resources">Resources</a>
+        <a href="/about">About</a>
+        <a href="/watch#follow">Follow</a>
+        <a class="btn-mini" href="/shop">Shop the drop</a>
+      </nav>
+      <button type="button" class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav" aria-label="Open menu">Menu</button>
+    </div>
+  </header>
+
+  <main id="main">
+  <section class="page-hero">
+    <div class="wrap">
+      <span class="eyebrow">Contact</span>
+      <h1>Send a note. Expect a human.</h1>
+      <p class="lead">This is not a 24/7 desk. For crisis help, go to Resources — dial 988 then 1. For order issues, use the store that took your money, or read Shipping and Returns.</p>
+    </div>
+  </section>
+  <section class="page-body">
+    <div class="wrap" class="contact-grid">
+      <div class="prose">
+        <h2>Before you write</h2>
+        <ul>
+          <li><strong>Crisis:</strong> Dial <a href="tel:988">988</a> then 1, text 838255, or visit <a href="https://www.veteranscrisisline.net/" rel="noopener noreferrer" target="_blank">veteranscrisisline.net</a>. Immediate danger: <a href="tel:911">911</a>.</li>
+          <li><strong>Apparel / Printify orders:</strong> <a href="https://horseshoe-round-me.printify.me/" rel="noopener noreferrer" target="_blank">horseshoe-round-me.printify.me</a> plus our <a href="/shipping">Shipping and Returns</a> page.</li>
+          <li><strong>Digitals (Payhip):</strong> use Payhip order support for the purchase that sold the file.</li>
+          <li><strong>Stickers (Stripe):</strong> reply through the Stripe receipt / payment confirmation.</li>
+        </ul>
+        <p>No public inbox published here on purpose. Use the form — honeypot included, bots can keep walking.</p>
+      </div>
+      <div>
+        <form class="form" id="contactForm" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/">
+          <input type="hidden" name="form-name" value="contact">
+          <p class="hp" hidden><label>Leave this empty: <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+          <div class="field"><label for="cname">Name</label><input id="cname" name="name" type="text" required autocomplete="name"></div>
+          <div class="field"><label for="cemail">Email</label><input id="cemail" name="email" type="email" required autocomplete="email"></div>
+          <div class="field"><label for="cmsg">Message</label><textarea id="cmsg" name="message" required rows="6" style="width:100%;background:var(--ink-2);border:1px solid var(--line-gold);color:var(--cream-bright);padding:14px 16px;font-family:inherit;font-size:15px"></textarea></div>
+          <button class="btn btn-primary" id="contactBtn" type="submit">Send message</button>
+          <p class="form-error" id="contactError" role="alert">Didn't go through — try again.</p>
+          <p class="fineprint">We read when we can. Not a crisis line. Not order tracking.</p>
+        </form>
+        <div class="success" id="contactSuccess" role="status">
+          <div class="check">Got it.</div>
+          <p>If it needs a reply, you'll hear back. If it's a crisis, use 988.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  </main>
+  <footer>
+    <div class="wrap">
+      <div>
+        <div class="foot-brand"><img src="/assets/logo.png" width="46" height="46" alt=""><span>Horseshoe Round Me</span></div>
+        <div class="foot-links">
+          <a href="/shop">Shop</a>
+          <a href="/watch">Watch</a>
+          <a href="/resources">Resources</a>
+          <a href="/about">About</a>
+          <a href="/contact">Contact</a>
+          <a href="/privacy">Privacy</a>
+          <a href="/terms">Terms</a>
+          <a href="/shipping">Shipping and Returns</a>
+          <a href="https://www.tiktok.com/@horseshoeroundme" rel="noopener noreferrer" target="_blank">TikTok</a>
+          <a href="https://www.instagram.com/horseshoe_round_me/" rel="noopener noreferrer" target="_blank">Instagram</a>
+          <a href="https://www.youtube.com/@Horseshoeroundme" rel="noopener noreferrer" target="_blank">YouTube</a>
+          <a href="https://linktr.ee/horseshoeroundme" rel="noopener noreferrer" target="_blank">Linktree</a>
+        </div>
+        <p class="foot-crisis">In crisis? Dial <a href="tel:988">988</a> then <strong>1</strong>, or text <strong>838255</strong>.</p>
+      </div>
+      <div class="foot-meta">
+        horseshoeroundme.com<br>
+        Gather Round. Stay Loud.<br>
+        © 2026 Horseshoe Round Me
+      </div>
+    </div>
+  </footer>
+<script src="/site.js" defer></script>
+</body>
+</html>
