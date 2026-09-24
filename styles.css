@@ -143,3 +143,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap;
   .drops{grid-template-columns:1fr}
 }
 @media (prefers-reduced-motion:reduce){*{animation:none!important}.medallion{opacity:1;transform:none}}
+
+.drop-featured{border-color:var(--line-gold);background:linear-gradient(160deg,rgba(221,167,34,.10),rgba(30,27,17,.6))}
+.drop-featured:hover{border-color:var(--gold)}
+.shop-note a{color:var(--gold);text-decoration:underline;text-underline-offset:3px}

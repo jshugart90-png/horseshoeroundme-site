@@ -25,12 +25,22 @@
 
 [[redirects]]
   from = "/shop"
-  to = "/#supply"
+  to = "https://horseshoe-round-me.printify.me"
   status = 302
 
 [[redirects]]
   from = "/shop/"
-  to = "/#supply"
+  to = "https://horseshoe-round-me.printify.me"
+  status = 302
+
+[[redirects]]
+  from = "/merch"
+  to = "https://horseshoe-round-me.printify.me"
+  status = 302
+
+[[redirects]]
+  from = "/merch/"
+  to = "https://horseshoe-round-me.printify.me"
   status = 302
 
 [[headers]]
