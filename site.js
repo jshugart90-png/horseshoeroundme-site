@@ -152,4 +152,25 @@
       });
     }
   }
+
+  function watchBeehiivMounts() {
+    var mounts = document.querySelectorAll('[data-beehiiv-mount]');
+    if (!mounts.length) return;
+    function markReady(el) {
+      if (el.querySelector('iframe, input[type="email"], form')) {
+        el.classList.add('beehiiv-ready');
+        return true;
+      }
+      return false;
+    }
+    mounts.forEach(function (mount) {
+      if (markReady(mount)) return;
+      var obs = new MutationObserver(function () {
+        if (markReady(mount)) obs.disconnect();
+      });
+      obs.observe(mount, { childList: true, subtree: true });
+      setTimeout(function () { markReady(mount); }, 10000);
+    });
+  }
+  watchBeehiivMounts();
 })();
