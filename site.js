@@ -156,20 +156,33 @@
   function watchBeehiivMounts() {
     var mounts = document.querySelectorAll('[data-beehiiv-mount]');
     if (!mounts.length) return;
-    function markReady(el) {
-      if (el.querySelector('iframe, input[type="email"], form')) {
-        el.classList.add('beehiiv-ready');
-        return true;
+    function mountLooksLive(el) {
+      if (el.querySelector('input[type="email"]')) return true;
+      var iframe = el.querySelector('iframe');
+      if (!iframe) return false;
+      var nodes = el.querySelectorAll('div');
+      for (var i = 0; i < nodes.length; i++) {
+        if (!nodes[i].querySelector('iframe')) continue;
+        if (nodes[i].getBoundingClientRect().height > 40) return true;
       }
-      return false;
+      return iframe.getBoundingClientRect().height > 40;
+    }
+    function markReady(el) {
+      if (!mountLooksLive(el)) return false;
+      el.classList.add('beehiiv-ready');
+      return true;
     }
     mounts.forEach(function (mount) {
       if (markReady(mount)) return;
       var obs = new MutationObserver(function () {
         if (markReady(mount)) obs.disconnect();
       });
-      obs.observe(mount, { childList: true, subtree: true });
-      setTimeout(function () { markReady(mount); }, 10000);
+      obs.observe(mount, { childList: true, subtree: true, attributes: true, attributeFilter: ['style', 'class'] });
+      var tries = 0;
+      var timer = setInterval(function () {
+        tries += 1;
+        if (markReady(mount) || tries > 40) clearInterval(timer);
+      }, 500);
     });
   }
   watchBeehiivMounts();

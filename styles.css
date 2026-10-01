@@ -350,8 +350,24 @@ nav .nav a[aria-current="page"]{color:var(--gold)}
 /* Beehiiv subscribe mounts */
 #beehiivSubscribe,
 [data-beehiiv-mount]{min-height:120px;position:relative}
+/* Beehiiv v3 starts the iframe clip wrapper at height:0; force a visible slot */
+#beehiivSubscribe div[style*="height: 0"],
+[data-beehiiv-mount] div[style*="height: 0"],
+#beehiivSubscribe div[style*="height:0"],
+[data-beehiiv-mount] div[style*="height:0"]{
+  height:180px!important;
+  min-height:180px!important;
+  max-height:none!important;
+  overflow:hidden!important;
+}
 #beehiivSubscribe iframe,
-[data-beehiiv-mount] iframe{width:100%!important;min-height:140px;border:0;display:block;background:transparent}
+[data-beehiiv-mount] iframe{
+  width:100%!important;
+  min-height:160px!important;
+  border:0;
+  display:block;
+  background:transparent;
+}
 .beehiiv-fallback{margin:0 0 12px}
 .beehiiv-fallback .btn{width:100%;justify-content:center}
 .form.beehiiv-ready .beehiiv-fallback{display:none}
