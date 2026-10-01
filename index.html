@@ -238,18 +238,10 @@
           <p class="lead">Top military and veteran news, plus the roasts that'd get you a counseling statement at work. Once a week. No spam, no "Dear valued subscriber."</p>
         </div>
         <div>
-          <form class="form" id="formCard" name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/">
-            <input type="hidden" name="form-name" value="newsletter">
-            <p class="hp" hidden><label>Leave this empty: <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
-            <div class="field"><label for="email">Email — required</label><input id="email" name="email" type="email" required autocomplete="email" placeholder="you@example.com"></div>
-            <div class="field"><label for="callsign">Callsign — optional</label><input id="callsign" name="callsign" type="text" autocomplete="nickname" placeholder="What we'll call you"></div>
-            <button class="btn btn-primary" id="signupBtn" type="submit">Sign me up</button>
-            <p class="form-error" id="formError" role="alert">Didn't go through — try again.</p>
+          <div class="form" id="beehiivSubscribe">
+            <script async src="https://subscribe-forms.beehiiv.com/v3/loader.js" data-beehiiv-form="03407fcf-b522-4ce4-8583-16a8f3747dad"></script>
+            <script type="text/javascript" async src="https://subscribe-forms.beehiiv.com/attribution.js"></script>
             <p class="fineprint">One email a week. Unsubscribe anytime — no guilt trip, no exit survey.</p>
-          </form>
-          <div class="success" id="successCard" role="status">
-            <div class="check">You're in.</div>
-            <p>Check your inbox like you check your six.</p>
           </div>
         </div>
       </div>

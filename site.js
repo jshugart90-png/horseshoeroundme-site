@@ -27,43 +27,6 @@
     });
   }
 
-  var form = document.getElementById('formCard');
-  if (form) {
-    form.addEventListener('submit', function (ev) {
-      ev.preventDefault();
-      var emailEl = document.getElementById('email');
-      var email = emailEl.value.trim();
-      var err = document.getElementById('formError');
-      if (err) err.classList.remove('show');
-      if (!email || email.indexOf('@') < 1) {
-        emailEl.focus();
-        emailEl.style.borderColor = 'var(--gold-bright)';
-        return;
-      }
-      emailEl.style.borderColor = '';
-      var btn = document.getElementById('signupBtn');
-      if (btn) btn.disabled = true;
-      var data = new URLSearchParams(new FormData(form)).toString();
-      fetch('/', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: data
-      }).then(function (res) {
-        if (res.ok) {
-          form.style.display = 'none';
-          var ok = document.getElementById('successCard');
-          if (ok) ok.classList.add('show');
-        } else {
-          if (err) { err.textContent = "Didn't go through — try again."; err.classList.add('show'); }
-          if (btn) btn.disabled = false;
-        }
-      }).catch(function () {
-        if (err) { err.textContent = "Didn't go through — try again."; err.classList.add('show'); }
-        if (btn) btn.disabled = false;
-      });
-    });
-  }
-
   var contactForm = document.getElementById('contactForm');
   if (contactForm) {
     contactForm.addEventListener('submit', function (ev) {

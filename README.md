@@ -7,13 +7,15 @@ Static Netlify site for [horseshoeroundme.com](https://horseshoeroundme.com/). I
 Point Netlify at this folder (or repo root if this *is* the repo). `publish = "."` in `netlify.toml`.
 
 - Custom domain: apex `horseshoeroundme.com` (www → apex redirects in toml)
-- Forms: newsletter form uses Netlify Forms (`data-netlify="true"`, name `newsletter`) — connect Git deploy so forms register
+- Newsletter: Beehiiv subscribe embed on `#newsletter` (form id `03407fcf-b522-4ce4-8583-16a8f3747dad`; publication https://horseshoeroundme.beehiiv.com/) — not Netlify Forms
+- Contact form: still Netlify Forms (`data-netlify="true"`) on `/contact`
 - `/shop` redirects to `/#supply`
 
 ## Structure
 
 ```
-index.html      page + tiny JS (nav toggle, honest form UX)
+index.html      page + Beehiiv newsletter embed
+site.js         nav toggle, contact form AJAX, resources directory
 styles.css      brand chrome
 assets/logo.png compressed medallion
 favicon.ico / favicon.png
