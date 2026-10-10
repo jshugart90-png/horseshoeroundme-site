@@ -381,3 +381,9 @@ nav .nav a[aria-current="page"]{color:var(--gold)}
   .foot-aside{align-items:flex-start;max-width:none}
   .foot-signup-label,.foot-aside .foot-meta{text-align:left}
 }
+
+/* Veterans Day strip */
+.vday-strip{background:#141410;border-top:2px solid var(--gold,#c9a227);border-bottom:2px solid var(--gold,#c9a227);padding:22px 0}
+.vday-inner{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap}
+.vday-strip h2{margin:4px 0 6px;letter-spacing:.06em;text-transform:uppercase}
+.vday-strip p{margin:0;opacity:.85}
