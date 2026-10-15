@@ -390,4 +390,4 @@ nav .nav a[aria-current="page"]{color:var(--gold)}
 .vday-strip p{margin:0;opacity:.85}
 /* Footer disclosure (counsel-approved) */
 footer .wrap.foot-disclosure-wrap{display:block;margin-top:28px;padding-top:18px;border-top:1px solid var(--line)}
-.foot-disclosure{font-size:12px;line-height:1.6;color:#BBA379;max-width:none;margin:0}
+.foot-disclosure{font-size:10px;line-height:1.5;color:#BBA379;max-width:none;margin:0}
