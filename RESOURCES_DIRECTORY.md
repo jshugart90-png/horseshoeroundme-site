@@ -354,7 +354,7 @@ Free and low-cost legal representation on VA claims, discharge upgrades, and rel
 
 NVLSP program matching Veterans with pro bono attorneys for complex benefits and discharge-upgrade cases.
 
-### [VA Discharge Upgrade Information](https://www.va.gov/discharge-upgrade-eligibility/)
+### [VA Discharge Upgrade Information](https://www.va.gov/discharge-upgrade-instructions/introduction/)
 
 Official VA guidance on how character of discharge affects benefits and where to start a discharge review or upgrade.
 
@@ -374,7 +374,7 @@ SWAN maintains vetted pro bono resources and a 24/7 assistance hotline (888-502-
 
 U.S. Small Business Administration hub for Veteran and military spouse entrepreneurs—lending, contracting, and counseling resources.
 
-### [Veterans Business Outreach Centers (VBOC)](https://www.sba.gov/local-assistance/resource-partners/veterans-business-outreach-centers-vboc)
+### [Veterans Business Outreach Centers (VBOC)](https://www.sba.gov/counseling/local-assistance/resource-partners/#veterans-business-outreach-centers)
 
 SBA-funded centers providing free business counseling, training, and mentorship tailored to Veterans and military spouses.
 
