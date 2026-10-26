@@ -1,0 +1,24 @@
+{
+  "updated": "2026-10-26",
+  "note": "Monday refresh: CoS nominates YT IDs → swap thumbs under assets/watch/ → John OKs one batch. Site does not read Ready/Posted (Nextcloud only).",
+  "videos": [
+    {
+      "id": "mzPhJZ1vvdE",
+      "title": "How Every Branch Gets Lost During Land Nav",
+      "url": "https://www.youtube.com/shorts/mzPhJZ1vvdE",
+      "thumb": "/assets/watch/mzPhJZ1vvdE.jpg"
+    },
+    {
+      "id": "dgBXu7erra4",
+      "title": "Jones Strikes Again: The Counseling Metaphor Gone Wrong",
+      "url": "https://www.youtube.com/shorts/dgBXu7erra4",
+      "thumb": "/assets/watch/dgBXu7erra4.jpg"
+    },
+    {
+      "id": "ds_o6axrTUY",
+      "title": "He Filed a Haunted Work Order. Maintenance Showed in 40 Minutes.",
+      "url": "https://www.youtube.com/shorts/ds_o6axrTUY",
+      "thumb": "/assets/watch/ds_o6axrTUY.jpg"
+    }
+  ]
+}

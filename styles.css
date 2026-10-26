@@ -391,3 +391,24 @@ nav .nav a[aria-current="page"]{color:var(--gold)}
 /* Footer disclosure (counsel-approved) */
 footer .wrap.foot-disclosure-wrap{display:block;margin-top:28px;padding-top:18px;border-top:1px solid var(--line)}
 .foot-disclosure{font-size:10px;line-height:1.5;color:#BBA379;max-width:none;margin:0}
+
+
+/* Signup popup (Gather Round Starter Pack) */
+body.signup-popup-open{overflow:hidden}
+.signup-popup{position:fixed;inset:0;z-index:200;display:flex;align-items:center;justify-content:center;padding:20px;opacity:0;pointer-events:none;transition:opacity .2s ease}
+.signup-popup.is-open{opacity:1;pointer-events:auto}
+.signup-popup-backdrop{position:absolute;inset:0;background:rgba(10,9,5,.78)}
+.signup-popup-panel{position:relative;z-index:1;width:min(440px,100%);max-height:min(90vh,720px);overflow:auto;background:var(--ink-2);border:1px solid var(--line-gold);padding:28px 24px 22px;box-shadow:0 24px 60px rgba(0,0,0,.45)}
+.signup-popup-close{position:absolute;top:10px;right:12px;width:36px;height:36px;border:1px solid var(--line);background:transparent;color:var(--cream-dim);font-size:24px;line-height:1;cursor:pointer}
+.signup-popup-close:hover{color:var(--cream-bright);border-color:var(--line-gold)}
+.signup-popup-panel h2{font-family:"Saira Condensed",sans-serif;font-weight:900;text-transform:uppercase;font-size:clamp(28px,5vw,36px);line-height:.95;margin:12px 0 12px;color:var(--cream-bright)}
+.signup-popup-lead{color:var(--cream-dim);font-size:15px;line-height:1.55;margin:0 0 18px}
+.signup-popup-form{margin:0}
+.signup-popup-form .fineprint{margin-top:10px;font-size:12px;color:var(--cream-dim)}
+@media (max-width:480px){
+  .signup-popup{padding:12px;align-items:flex-end}
+  .signup-popup-panel{width:100%;padding:22px 18px 18px;max-height:92vh}
+}
+@media (prefers-reduced-motion:reduce){
+  .signup-popup{transition:none}
+}
