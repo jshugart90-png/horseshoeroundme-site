@@ -222,15 +222,9 @@
     var DELAY_MS = 6000;
     var RESHOW_MS = 10 * 24 * 60 * 60 * 1000; // 10 days (within 7–14)
 
-    try {
-      var raw = localStorage.getItem(STORAGE_KEY);
-      if (raw) {
-        var prev = JSON.parse(raw);
-        if (prev && prev.ts && (Date.now() - prev.ts) < RESHOW_MS) return;
-      }
-    } catch (e) { /* private mode etc. */ }
-
     var FORM_ID = '03407fcf-b522-4ce4-8583-16a8f3747dad';
+    var PACK_URL = '/downloads/gather-round-starter-pack.zip';
+    var BEEHIIV_ORIGIN = 'https://subscribe-forms.beehiiv.com';
 
     function markDismissed() {
       try { localStorage.setItem(STORAGE_KEY, JSON.stringify({ ts: Date.now() })); } catch (e) {}
@@ -246,7 +240,15 @@
 
 
     function openPopup() {
-      if (document.getElementById('signupPopup')) return;
+      var existing = document.getElementById('signupPopup');
+      if (existing) {
+        if (!existing.classList.contains('is-open')) {
+          existing.classList.add('is-open');
+          existing.setAttribute('aria-hidden', 'false');
+          document.body.classList.add('signup-popup-open');
+        }
+        return;
+      }
 
       var overlay = document.createElement('div');
       overlay.id = 'signupPopup';
@@ -262,10 +264,14 @@
           '<button type="button" class="signup-popup-close" aria-label="Close" data-signup-dismiss>&times;</button>' +
           '<span class="eyebrow">Free download when you subscribe</span>' +
           '<h2 id="signupPopupTitle">Gather Round Starter Pack</h2>' +
-          '<p class="signup-popup-lead">PL Survival Card, Barracks Leadership One-Pagers, and a Counseling Joke Template — free when you subscribe. The pack link lands in your welcome email. Weekly newsletter after that. No spam, no exit survey.</p>' +
+          '<p class="signup-popup-lead">PL Survival Card, Barracks Leadership One-Pagers, and a Counseling Joke Template. Subscribe and the download button shows up right here. No inbox scavenger hunt. One email a week after that. No spam, no exit survey.</p>' +
           '<div class="form signup-popup-form" data-beehiiv-mount data-signup-popup-mount>' +
             '<p class="beehiiv-fallback"><a class="btn btn-primary" href="https://horseshoeroundme.beehiiv.com/?modal=signup">Sign me up</a></p>' +
             '<p class="fineprint">Unsubscribe anytime.</p>' +
+          '</div>' +
+          '<div class="signup-popup-grab" data-signup-grab>' +
+            '<p class="signup-popup-grab-label">Subscribed? Grab your pack:</p>' +
+            '<a class="btn btn-ghost signup-popup-dl" href="' + PACK_URL + '" download>Download the Starter Pack (.zip)</a>' +
           '</div>' +
         '</div>';
 
@@ -296,15 +302,59 @@
       overlay.addEventListener('click', function (e) {
         if (e.target && e.target.hasAttribute('data-signup-dismiss')) closePopup(overlay);
       });
-      document.addEventListener('keydown', function onKey(e) {
+      document.addEventListener('keydown', function (e) {
         if (e.key !== 'Escape') return;
         if (!overlay.classList.contains('is-open')) return;
         closePopup(overlay);
-        document.removeEventListener('keydown', onKey);
       });
     }
 
-    setTimeout(openPopup, DELAY_MS);
+    // Beehiiv's own loader sets this cookie after a signup and hides its forms on later visits.
+    function alreadySubscribed() {
+      return /(?:^|;\s*)bhv_[^=;]+_subscribed=/.test(document.cookie || '');
+    }
+
+    function showSuccess(overlay) {
+      if (!overlay) return;
+      var panel = overlay.querySelector('.signup-popup-panel');
+      if (!panel || panel.getAttribute('data-success') === '1') return;
+      panel.setAttribute('data-success', '1');
+      panel.innerHTML =
+        '<button type="button" class="signup-popup-close" aria-label="Close" data-signup-dismiss>&times;</button>' +
+        '<span class="eyebrow">You\'re on the roster</span>' +
+        '<h2 id="signupPopupTitle">Gather Round Starter Pack</h2>' +
+        '<p class="signup-popup-lead">Signed, sealed, accounted for. Your pack is right here. No waiting on an email that\'s still at the motor pool.</p>' +
+        '<p><a class="btn btn-primary signup-popup-dl" href="' + PACK_URL + '" download>Download the Starter Pack (.zip)</a></p>' +
+        '<p class="fineprint">PL Survival Card, Barracks Leadership One-Pagers, Counseling Joke Template. Newsletter hits once a week.</p>';
+      var btn = panel.querySelector('.signup-popup-dl');
+      if (btn) btn.focus();
+    }
+
+    // Beehiiv's form iframe posts {type:'beehiiv:submitted'} / 'beehiiv:success-toast' to the parent
+    // after a successful signup (its loader.js listens for the same messages). Any signup on the page
+    // (popup or an inline newsletter block) opens the popup straight to the download.
+    window.addEventListener('message', function (e) {
+      if (e.origin !== BEEHIIV_ORIGIN) return;
+      var d = e.data;
+      if (!d || typeof d !== 'object') return;
+      if (d.type !== 'beehiiv:submitted' && d.type !== 'beehiiv:success-toast') return;
+      markDismissed();
+      openPopup();
+      showSuccess(document.getElementById('signupPopup'));
+    });
+
+    try {
+      var raw = localStorage.getItem(STORAGE_KEY);
+      if (raw) {
+        var prev = JSON.parse(raw);
+        if (prev && prev.ts && (Date.now() - prev.ts) < RESHOW_MS) return;
+      }
+    } catch (e) { /* private mode etc. */ }
+
+    setTimeout(function () {
+      openPopup();
+      if (alreadySubscribed()) showSuccess(document.getElementById('signupPopup'));
+    }, DELAY_MS);
   }
   initSignupPopup();
 

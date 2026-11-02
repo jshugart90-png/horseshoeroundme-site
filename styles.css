@@ -412,3 +412,7 @@ body.signup-popup-open{overflow:hidden}
 @media (prefers-reduced-motion:reduce){
   .signup-popup{transition:none}
 }
+.signup-popup-grab{margin-top:18px;padding-top:14px;border-top:1px solid var(--line)}
+.signup-popup-grab-label{margin:0 0 8px;font-size:13px;color:var(--cream-dim)}
+.signup-popup-dl{display:inline-block}
+.signup-popup-panel .fineprint{margin-top:14px;font-size:12px;color:var(--cream-dim)}
