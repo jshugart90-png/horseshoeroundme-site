@@ -262,7 +262,7 @@
           '<button type="button" class="signup-popup-close" aria-label="Close" data-signup-dismiss>&times;</button>' +
           '<span class="eyebrow">Free download when you subscribe</span>' +
           '<h2 id="signupPopupTitle">Gather Round Starter Pack</h2>' +
-          '<p class="signup-popup-lead">PL Survival Card, Barracks Leadership One-Pagers, and a Counseling Joke Template — free when you subscribe. Confirm your email and we send the pack. Weekly newsletter after that. No spam, no exit survey.</p>' +
+          '<p class="signup-popup-lead">PL Survival Card, Barracks Leadership One-Pagers, and a Counseling Joke Template — free when you subscribe. The pack link lands in your welcome email. Weekly newsletter after that. No spam, no exit survey.</p>' +
           '<div class="form signup-popup-form" data-beehiiv-mount data-signup-popup-mount>' +
             '<p class="beehiiv-fallback"><a class="btn btn-primary" href="https://horseshoeroundme.beehiiv.com/?modal=signup">Sign me up</a></p>' +
             '<p class="fineprint">Unsubscribe anytime.</p>' +
