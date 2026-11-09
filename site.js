@@ -1,4 +1,13 @@
 (function () {
+  // Seasonal blocks retire themselves: hide anything with data-until once that moment passes.
+  var now = Date.now();
+  Array.prototype.forEach.call(document.querySelectorAll('[data-until]'), function (el) {
+    var t = Date.parse(el.getAttribute('data-until'));
+    if (!isNaN(t) && now >= t) el.hidden = true;
+  });
+})();
+
+(function () {
   var nav = document.getElementById('siteNav');
   var toggle = document.getElementById('navToggle');
   function closeNav() {
