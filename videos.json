@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-26",
+  "updated": "2026-11-23",
   "note": "Monday refresh: CoS nominates YT IDs → swap thumbs under assets/watch/ → John OKs one batch. Site does not read Ready/Posted (Nextcloud only).",
   "videos": [
     {
-      "id": "mzPhJZ1vvdE",
-      "title": "How Every Branch Gets Lost During Land Nav",
-      "url": "https://www.youtube.com/shorts/mzPhJZ1vvdE",
-      "thumb": "/assets/watch/mzPhJZ1vvdE.jpg"
+      "id": "gZhRVWfwJJU",
+      "title": "The Range Safety NCO When You Ask \"Can We Go Yet?\"",
+      "url": "https://www.youtube.com/shorts/gZhRVWfwJJU",
+      "thumb": "/assets/watch/gZhRVWfwJJU.jpg"
     },
     {
-      "id": "dgBXu7erra4",
-      "title": "Jones Strikes Again: The Counseling Metaphor Gone Wrong",
-      "url": "https://www.youtube.com/shorts/dgBXu7erra4",
-      "thumb": "/assets/watch/dgBXu7erra4.jpg"
+      "id": "_9CSvofiihI",
+      "title": "Never Ask the Army Cook What's in It",
+      "url": "https://www.youtube.com/shorts/_9CSvofiihI",
+      "thumb": "/assets/watch/_9CSvofiihI.jpg"
     },
     {
-      "id": "ds_o6axrTUY",
-      "title": "He Filed a Haunted Work Order. Maintenance Showed in 40 Minutes.",
-      "url": "https://www.youtube.com/shorts/ds_o6axrTUY",
-      "thumb": "/assets/watch/ds_o6axrTUY.jpg"
+      "id": "r9GF58_k1x8",
+      "title": "Warrant Officers: The Sergeant Who Escaped",
+      "url": "https://www.youtube.com/shorts/r9GF58_k1x8",
+      "thumb": "/assets/watch/r9GF58_k1x8.jpg"
     }
   ]
 }
